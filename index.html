@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>João Luiz | Portfólio</title>
+  <link rel="stylesheet" href="CSS/portifolio.joao.css" />
+</head>
+<body>
+  <header>
+    <h1>João Luiz da Silva Junior</h1>
+    <p>Desenvolvedor | Suporte Técnico | TI Logística</p>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou formado em Análise e Desenvolvimento de Sistemas, com experiência em suporte técnico, redes, CFTV e automação de vendas. Atuei em empresas como Atacadão S.A e Datasul Cursos, sempre buscando soluções práticas e eficientes.</p>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+
+    <div class="projeto">
+      <h3>Sistema de Monitoramento CFTV</h3>
+      <img src="print-monitoramento.png" alt="Print do sistema de monitoramento" />
+      <pre><code class="language-python">
+# Exemplo de script para monitoramento de câmeras
+import cv2
+
+camera = cv2.VideoCapture(0)
+while True:
+    ret, frame = camera.read()
+    cv2.imshow("Monitoramento", frame)
+    if cv2.waitKey(1) == 27:
+        break
+camera.release()
+cv2.destroyAllWindows()
+      </code></pre>
+      <p>Projeto desenvolvido no Atacadão S.A para monitoramento interno com câmeras Intelbras e Hikvision.</p>
+    </div>
+
+    <!-- Adicione mais projetos aqui -->
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Email: juniorviruz96@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/joão-luiz-9b1408173" target="_blank">joão-luiz-9b1408173</a></p>
+    <p>WhatsApp: (81) 9.9445-9768</p>
+  </section>
+
+  <footer>
+    <p>© 2025 João Luiz. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
