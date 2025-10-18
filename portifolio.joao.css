@@ -135,9 +135,13 @@ section {
     text-align: center;
   }
 
-  .sobre-texto {
-    padding: 0 10px;
-  }
+  .sobre-texto p {
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
 }
 
 /* Lista de habilidades */
