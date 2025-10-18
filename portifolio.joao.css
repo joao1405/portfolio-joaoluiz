@@ -534,3 +534,6 @@ pre {
 .galeria-eventos img:hover {
   transform: scale(1.03);
 }
+#mensagem-sucesso {
+  transition: opacity 0.5s ease;
+}
