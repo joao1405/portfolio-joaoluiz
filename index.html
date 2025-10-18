@@ -4,9 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>João Luiz | Portfólio</title>
-  <link rel="stylesheet" href="portifolio.joao.css" />
+  <link rel="stylesheet" href="CSS/portifolio.joao.css" />
   <meta name="description" content="Portfólio de João Luiz da Silva Junior - Desenvolvedor e especialista em TI Logística.">
   <meta name="author" content="João Luiz da Silva Junior">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="IMG/logo-joao.png" type="image/png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+
 </head>
 <body>
   <header>
@@ -21,69 +25,206 @@
   </header>
 
   <main>
-   <section id="sobre">
+    <section id="sobre" class="sobre-container">
+    <div class="sobre-foto">
+      <img src="IMG/me.jpg" alt="Foto de João Luiz" class="foto-perfil" />
+    </div>
+    <div class="sobre-texto">
       <h2>Sobre Mim</h2>
-      <img src="me.jpg" alt="Foto de João Luiz" class="foto-perfil" />
-      <p>Sou formado em Análise e Desenvolvimento de Sistemas, com experiência em suporte técnico, redes, CFTV e automação de vendas...</p>
+      <p>Sou formado em Análise e Desenvolvimento de Sistemas, com experiência em suporte técnico, redes, CFTV e automação de vendas. Atuei em empresas como Atacadão S.A e Datasul Cursos, sempre buscando soluções práticas e eficientes.</p>
+    </div>
+  </section>
+   <section id="formacao">
+      <h2>Formação Acadêmica</h2>
+      <div class="cert-item">
+        <img src="logo/estacio.jpg" alt="Estácio de Sá" title="Centro Universitário Estácio de Sá">
+        <p>Análise e Desenvolvimento de Sistemas Centro Universitário Estácio de Sá – PE</p>
+      </div>
     </section>
-
 
     <section id="habilidades">
       <h2>Habilidades Técnicas</h2>
-      <ul>
-        <li>PHP, Python, JavaScript</li>
-        <li>HTML5, CSS3, Bootstrap</li>
-        <li>MySQL, SQL Server</li>
-        <li>Suporte técnico, redes, CFTV</li>
-      </ul>
+      <div class="habilidades-viewport">
+        <div class="habilidades-slides">
+          <div class="habilidades-track">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" title="PHP">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" title="MySQL">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" title="Bootstrap">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" title="Visual Studio Code">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" alt="Windows" title="Windows">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" title="Linux">
+            <!-- Duplicação para rolagem infinita -->
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" title="PHP">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" title="MySQL">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" title="Bootstrap">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" title="Visual Studio Code">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" alt="Windows" title="Windows">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" title="Linux">
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <section id="certificacoes">
+      <h2>📜 Certificações</h2>
+      <div class="certificacoes-viewport">
+        <div class="certificacoes-wrapper">
+          <div class="certificacoes-track">
+            <!-- Bloco 1 -->
+            <div class="cert-item">
+              <img src="logo/udemy.svg" alt="Udemy">
+              <p>Programação Orientada a Objetos</p>
+            </div>
+            <div class="cert-item">
+              <img src="logo/azure.png" alt="Azure">
+              <p>Azure Data Fundamentals (DP-900)</p>
+            </div>
+            <div class="cert-item">
+              <img src="logo/harvard.png" alt="Harvard">
+              <p>Programação Web com Python e JavaScript</p>
+            </div>
+            <div class="cert-item">
+              <img src="logo/fgv.png" alt="FGV">
+              <p>Fundamentos da Gestão de TI</p>
+            </div>
+            <div class="cert-item">
+              <img src="logo/ada.png" alt="Ada Tech">
+              <p>API Rest, Processamento e Análise de Dados</p>
+            </div>
+            <div class="cert-item">
+              <img src="logo/senai.svg" alt="SENAI">
+              <p>Lógica de Programação e Fundamentos de Logística</p>
+            </div>
+            <div class="cert-item">
+              <img src="logo/datasul.jpeg" alt="Datasul">
+              <p>Informática Básica, Web Design, Montagem e Manutenção</p>
+            </div>
+            <!-- Bloco 2 (duplicado) -->
+            <div class="cert-item">
+              <img src="logo/udemy.svg" alt="Udemy">
+              <p>Programação Orientada a Objetos</p>
+            </div>
+            <div class="cert-item">
+              <img src="logo/azure.png" alt="Azure">
+              <p>Azure Data Fundamentals (DP-900)</p>
+            </div>
+            <div class="cert-item">
+              <img src="logo/harvard.png" alt="Harvard">
+              <p>Programação Web com Python e JavaScript</p>
+            </div>
+            <div class="cert-item">
+              <img src="logo/fgv.png" alt="FGV">
+              <p>Fundamentos da Gestão de TI</p>
+            </div>
+            <div class="cert-item">
+              <img src="logo/ada.png" alt="Ada Tech">
+              <p>API Rest, Processamento e Análise de Dados</p>
+            </div>
+            <div class="cert-item">
+              <img src="logo/senai.svg" alt="SENAI">
+              <p>Lógica de Programação e Fundamentos de Logística</p>
+            </div>
+            <div class="cert-item">
+              <img src="logo/datasul.jpeg" alt="Datasul">
+              <p>Informática Básica, Web Design, Montagem e Manutenção</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="projetos">
-      <h2>Projetos</h2>
-
-      <div class="projeto">
-        <h3>Sistema de Fretes</h3>
-        <p>Sistema desenvolvido para gestão de fretes, com funcionalidades como cadastro, edição, aprovação e relatórios. Interface personalizada com saudação dinâmica e foco na experiência do usuário.</p>
-        <div class="carrossel">
-          <div class="slides">
-            <img src="sistema_frete.jpg" alt="Tela de login do sistema de fretes" />
-            <img src="dashboard_fretes.jpg" alt="Dashboard do sistema de fretes" />
-            <img src="codificacão_fretes" alt="Código em PHP+CSS do sistema" />
-            <img src="fretes_cadastrado.jpg" alt="Fretes cadastrados para aprovação" />
-            <img src="consultar_tabela.jpg" alt="Tabela de fretes por cidade" />
-            <img src="reajuste_fretes.jpg" alt="Tabela de reajuste de fretes" />
+      <h2> Projetos desenvolvido</h2>
+      <div class="projetos-grid">
+        <div class="projeto-card">
+          <h3>Sistema de Fretes</h3>
+          <p>Sistema desenvolvido para gestão de fretes, com funcionalidades como cadastro, edição, aprovação e relatórios. Interface personalizada com saudação dinâmica e foco na experiência do usuário.</p>
+          <div class="carrossel">
+            <div class="slides">
+              <img src="IMG/sistema_frete.jpg" alt="Tela de login do sistema de fretes" />
+              <img src="IMG/dashboard_fretes.jpg" alt="Dashboard do sistema de fretes" />
+              <img src="IMG/codificação_fretes.jpg" alt="Código em PHP+CSS do sistema" />
+              <img src="IMG/fretes_cadastrado.jpg" alt="Fretes cadastrados para aprovação" />
+              <img src="IMG/consultar_tabela.jpg" alt="Tabela de fretes por cidade" />
+              <img src="IMG/reajuste_fretes.jpg" alt="Tabela de reajuste de fretes" />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="projeto">
-        <h3>Sistema de Transporte</h3>
-        <p>Interface de login desenvolvida para controle de acesso de colaboradores envolvidos em transporte e logística. O sistema apresenta campos de matrícula e senha, com visual temático reforçado por imagens de caminhões em operação.</p>
-        <div class="carrossel">
-          <div class="slides">
-            <img src="sistema-transporte-login.jpeg" alt="Tela de login com caminhão branco e empilhadeira ao fundo" />
-            <img src="painel-acessos.jpeg" alt="Painel de acesso" />
-            <img src="php-sessoes.jpeg" alt="Interface feita em PHP+CSS" />
-            <img src="marca_a_vez.jpg" alt="Controle de marcação de vez" />
-            <img src="acompanhamento_recebimento.jpg" alt="Acompanhamento de recebimento" />
-            <img src="lancamento_cargas.jpg" alt="Lançamento de cargas" />
+        <div class="projeto-card">
+          <h3>Sistema de Transporte</h3>
+          <p>Interface de login desenvolvida para controle de acesso de colaboradores envolvidos em transporte e logística. O sistema apresenta campos de matrícula e senha, com visual temático reforçado por imagens de caminhões em operação.</p>
+          <div class="carrossel">
+            <div class="slides">
+              <img src="IMG/sistema-transporte-login.jpeg" alt="Tela de login com caminhão branco e empilhadeira ao fundo" />
+              <img src="IMG/painel-acessos.jpeg" alt="Painel de acesso" />
+              <img src="IMG/php-sessoes.jpeg" alt="Interface feita em PHP+CSS" />
+              <img src="IMG/marca_a_vez.jpg" alt="Controle de marcação de vez" />
+              <img src="IMG/acompanhamento_recebimento.jpg" alt="Acompanhamento de recebimento" />
+              <img src="IMG/lançamento_cargas.jpg" alt="Lançamento de cargas" />
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <section id="eventos">
+      <h2>Eventos e Atuação Profissional</h2>
+      <p>Participei de diversas ações técnicas e operacionais em Feira de Santana - BA, incluindo implantação de sistemas logísticos, treinamentos e palestras voltadas à melhoria de processos.</p>
+
+      <!-- Carrossel destacado -->
+      <div class="carrossel-eventos">
+        <div class="slides-eventos">
+          <img src="IMG/evento1.jpg" alt="Implantação de sistema logístico">
+          <img src="IMG/evento2.jpg" alt="Palestra com equipe de logística">
+          <img src="IMG/evento3.jpg" alt="Treinamento em armazém">
+          
+          <!-- Duplicação para loop infinito -->
+          <img src="IMG/evento1.jpg" alt="Implantação de sistema logístico">
+          <img src="IMG/evento2.jpg" alt="Palestra com equipe de logística">
+          <img src="IMG/evento3.jpg" alt="Treinamento em armazém">
+        </div>
+      </div>
+
+
+      <!-- Galeria em grade -->
+      <div class="galeria-eventos">
+        <img src="IMG/evento4.jpg" alt="Equipe reunida após implantação">
+        <img src="IMG/evento5.jpeg" alt="Apresentação técnica em operação">
+        <img src="IMG/evento6.jpeg" alt="Celebração com equipe de projeto">
+        <img src="IMG/evento7.jpeg" alt="Foto em grupo após evento técnico">
+      </div>
+    </section>
+
+
 
     <section id="contato">
-      <h2>📬 Contato</h2>
+      <h2>Contato</h2>
       <p>Fique à vontade para entrar em contato comigo pelos canais abaixo ou envie uma mensagem diretamente pelo formulário.</p>
 
       <div class="contato-card">
-        <p><strong>Email:</strong> <a href="mailto:juniorviruz96@gmail.com">juniorviruz96@gmail.com</a></p>
+        <p><strong>Email:</strong> <a href="mailto:joaoluizdev35@gmail.com">joaoluizdev35@gmail.com</a></p>
         <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/joão-luiz-9b1408173" target="_blank">linkedin.com/in/joão-luiz-9b1408173</a></p>
-        <p><strong>WhatsApp:</strong> <a href="https://wa.me/5581944459768" target="_blank">(81) 9.9445-9768</a></p>
-        <p><strong>Localização:</strong> Paulista, Pernambuco - Brasil</p>
+        <p><strong>WhatsApp:</strong> 
+          <a href="https://wa.me/5581994459768?text=Olá%20João,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar!" target="_blank" class="btn-whatsapp">
+            <img src="img/logo-joao.png" alt="Logo João Luiz" class="logo-whatsapp">
+            Falar com João
+          </a>
+
+        </p>
       </div>
 
       <form action="https://formspree.io/f/xwprynpz" method="POST" class="form-contato">
+        <input type="hidden" name="_next" value="https://seuportifolio.com/obrigado.html">
+        <input type="hidden" name="_captcha" value="false">
+
         <label for="nome">Nome</label>
         <input type="text" id="nome" name="nome" required>
 
@@ -96,6 +237,9 @@
         <button type="submit">Enviar Mensagem</button>
       </form>
     </section>
+    
+
+
   </main>
 
   <footer>
@@ -103,8 +247,3 @@
   </footer>
 </body>
 </html>
-
-
-
-
-
